@@ -1,0 +1,13 @@
+body{
+    padding: 10%;
+}
+form{
+   width: 50%;
+   border: 2px solid black;
+   padding: 20px;
+   justify-self: center;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}

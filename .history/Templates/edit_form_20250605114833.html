@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Data</title>
+</head>
+<body>
+ <form method="POST">
+  <div>
+    <label for="student_name">Student Name</label>
+    <input type="text" id="student_name" name="Student_Name" value="{{ student.Student_Name }}" class="form-control" />
+  </div>
+
+  <div>
+    <label for="student_age">Student Age</label>
+    <input type="text" id="student_age" name="Student_Age" value="{{ student.Student_Age }}" class="form-control" />
+  </div>
+
+  
+  <div>
+    <label for="student_email">Student Email</label>
+    <input type="text" id="student_email" name="Student_Contact_Email" value="{{ student.Student_Contact_Email }}" class="form-control" />
+  </div>
+  <div>
+    <label for="student_number">Student Number</label>
+    <input type="text" id="student_number" name="Student_Contact_Number" value="{{ student.Student_Contact_Number }}" class="form-control" />
+  </div>
+
+  <!-- ✅ Button is now inside the form -->
+
+  <button type="submit">Update Student</button>
+</form>
+</body>
+</html>

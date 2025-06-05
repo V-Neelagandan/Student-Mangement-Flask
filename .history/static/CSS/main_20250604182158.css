@@ -1,0 +1,15 @@
+.title h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+font-family: serif;}
+body{
+    background-image: url(../Images/login.avif);
+    background-size: cover;
+    /* background-color: yellowgreen; */
+}
+.table th{
+     background-image: url(../Images/login.avif);
+     background-size: cover;
+}

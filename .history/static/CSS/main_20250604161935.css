@@ -1,0 +1,10 @@
+.title h1{
+    color: darkcyan;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    /* background-image: url(../Images/login.avif) no-repeat;
+    background-size: cover; */
+    background-color: yellowgreen;
+}

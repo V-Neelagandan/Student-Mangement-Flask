@@ -1,6 +1,10 @@
 from flask import Flask
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "✅ Flask App Running Successfully on Render!"
+
 app.secret_key = 'supersecret123'  # ✅ Add this line
 from Controllers.product_controller import *
 

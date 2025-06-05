@@ -1,3 +1,19 @@
+
+    # id = int(id)
+    # try:
+    #     quary.execute(f"SELECT * FROM Student WHERE ID = {id}")
+    #     student_data = [dict(records) for records in quary.fetchall()]
+    #     if not student_data:
+    #         return make_response({"success": f"Student record with ID {id} doesn't exist"}, 404)
+        
+    #     return make_response({
+    #         "success": "data retrieved successfully!!!",
+    #         "Student_data": student_data[0]  # ✅ Return a single student dict
+    #     }, 200)
+    # except Exception as e:
+    #     return make_response({"error": f"Something error occurred as {e}"}, 400)
+
+# student_model.py
 import sqlite3
 from flask import request, make_response
 

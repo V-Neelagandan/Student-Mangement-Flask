@@ -18,20 +18,38 @@ body::before {
   z-index: -1;
 }
 
-form{
-   width: 50%;
-   padding: 20px;
-   justify-self: center;
-   color: rgb(3, 3, 3);
-   font-size: 25px;
-   font-weight: bold;
-   font-family: sans-serif;
+form {
+  width: 50%;
+  padding: 20px;
+  justify-self: center;
+  color: rgb(3, 3, 3);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
-h1{
-    text-align: center;
-    padding: 10px;
-    font-family:Arial, Helvetica, sans-serif ;
-    color: aliceblue;
-    font-weight: bold;
 
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+/* Mobile Responsive Media Query */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 3% 5%;
+  }
+
+  form {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    padding: 8px;
+  }
 }
